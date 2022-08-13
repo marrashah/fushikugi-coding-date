@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className={styles.textCenter}>
-      <StaticImage
+      {/* <StaticImage
         src="../images/example.png"
         loading="eager"
         width={64}
@@ -81,23 +81,17 @@ const IndexPage = () => (
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
-      />
+      /> */}
+      <img src="https://i.gifer.com/3jng.gif" />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        {/* Rasha & Eknath's <b>playground ❤️</b> */}
+        Rasha & Eknath's <b>Playground ❤️</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        A place for us to profess our love for each other as friends, lovers, and fellow developers.
       </p>
     </div>
-    <ul className={styles.list}>
+    {/* <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
@@ -109,13 +103,13 @@ const IndexPage = () => (
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
       ))}
-    </ul>
-    {moreLinks.map((link, i) => (
+    </ul> */}
+    {/* {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}
+    ))} */}
   </Layout>
 )
 
@@ -124,6 +118,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Rasha Eknath Playground <3" />
 
 export default IndexPage

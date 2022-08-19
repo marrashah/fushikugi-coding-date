@@ -85,7 +85,7 @@ const IndexPage = () => (
       <img src="https://i.gifer.com/3jng.gif" />
       <h1>
         {/* Rasha & Eknath's <b>playground ❤️</b> */}
-        Rasha & Eknath's <b>Playground ❤️</b>
+        Rasha & <Link to="/Eknath">Eknath</Link>'s <b>Playground ❤️</b>
       </h1>
       <p className={styles.intro}>
         A place for us to profess our love for each other as friends, lovers, and fellow developers.

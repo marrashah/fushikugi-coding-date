@@ -73,43 +73,14 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className={styles.textCenter}>
-      {/* <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      /> */}
       <img src="https://i.gifer.com/3jng.gif" />
       <h1>
-        {/* Rasha & Eknath's <b>playground ❤️</b> */}
-        Rasha & <Link to="/Eknath">Eknath</Link>'s <b>Playground ❤️</b>
+      <Link to="/Rasha">Rasha</Link> & <Link to="/Eknath">Eknath</Link>'s <b>Playground ❤️</b>
       </h1>
       <p className={styles.intro}>
         A place for us to profess our love for each other as friends, lovers, and fellow developers.
       </p>
     </div>
-    {/* <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul> */}
-    {/* {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))} */}
   </Layout>
 )
 
